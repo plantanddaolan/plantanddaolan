@@ -17,19 +17,13 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/app.js"></script>
 </head>
-<body>
-<!--[if lte IE 9]><p class="browsehappy">升级你的浏览器吧！ <a href="http://se.360.cn/" target="_blank">升级浏览器</a>以获得更好的体验！</p>
-<![endif]-->
-
-
-</head>
 
 <body>
-<% include header.ejs %>
+<?php include "header.php"?>
 
 <div class="am-cf admin-main">
 
-    <% include menu.ejs %>
+    <?php include "menu.php"?>
 
     <div class=" admin-content">
 

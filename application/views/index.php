@@ -1,6 +1,7 @@
 <!doctype html>
-<html class="no-js">
+<html>
 <head>
+    <base href="<?php echo site_url() ?>">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Amaze UI Admin index Examples</title>
@@ -18,22 +19,15 @@
     <script src="assets/js/app.js"></script>
 </head>
 <body>
-<!--[if lte IE 9]><p class="browsehappy">升级你的浏览器吧！ <a href="http://se.360.cn/" target="_blank">升级浏览器</a>以获得更好的体验！</p>
-<![endif]-->
-
-
-</head>
-
-<body>
-<%include header.ejs%>
+<?php include "header.php"?>
 
 <div class="am-cf admin-main">
 
-    <%include menu.ejs%>
+    <?php include "menu.php"?>
 
     <div class=" admin-content">
 
-        <%include nav.ejs%>
+        <?php include "nav.php"?>
 
 
         <div class="admin">
